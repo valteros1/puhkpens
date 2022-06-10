@@ -1,0 +1,45 @@
+.text {
+    padding-left: 2rem;
+    
+}
+
+.ionText{
+ padding-left: 5rem;
+ 
+}
+
+.ion-padding {
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+.ion-padding2 {
+    text-align: center;
+    
+}
+
+.vajuta-siia {
+    padding-top:3rem;
+    
+}
+
+.nupp{
+    display:flex;
+    padding-left: 1rem;
+    padding-right:1rem;
+    
+    
+
+}
+
+.title{
+    text-align: center;
+    
+}
+
+.ion-card{
+    padding-top:1rem;
+    text-align: center;
+}
