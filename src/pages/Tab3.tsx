@@ -26,7 +26,7 @@ export const Tab3: React.FC = () => {
     <IonPage>
     <IonHeader>
         <IonToolbar>
-          <IonTitle className="title">Galerii</IonTitle>
+          <IonTitle className="title">Linn</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen><IonHeader collapse="condense">
