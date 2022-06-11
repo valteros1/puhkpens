@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import { Virtuoso } from 'react-virtuoso';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent, IonItem, IonIcon, IonLabel, IonButton, IonList, IonInput, IonToggle, IonRadio, IonCheckbox, IonItemSliding, IonItemOptions, IonItemOption, IonAvatar, IonSelectOption, IonSelect, IonDatetime, IonText, IonThumbnail, IonNote, IonRange, IonItemDivider, IonListHeader } from '@ionic/react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Keyboard, Pagination, Scrollbar, Zoom } from 'swiper';
-import { checkmarkCircle, closeCircle, home, informationCircle, navigate, shuffle, star } from 'ionicons/icons';
+
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardContent, IonItem, IonLabel, IonList,  IonSelectOption, IonSelect} from '@ionic/react';
+
 
 const picture_paris = <img src="assets/pariis.jpg" alt="Pariis"   />;
 const picture_rome = <img src="assets/rooma.webp" alt="Rooma" /> ;

@@ -1,6 +1,6 @@
 import { IonButton, IonContent, IonHeader, IonCard, IonPage, IonText, IonTitle, IonToolbar, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent } from '@ionic/react';
 
-import ExploreContainer from '../components/ExploreContainer';
+
 import './Tab1.css';
 
 const test1 = ["Pariis", "Rooma", "Abudhabi"];
@@ -49,12 +49,13 @@ const Tab1: React.FC = () => {
 
     <div className="vajuta-siia">
       
-      <IonButton onClick={() => console.log(test1) } id= "button" className="nupp" size="large" slot= "primary" color="secondary">
+      <IonButton onClick={() => alert('Kuhu') } id= "button" className="nupp" size="large" slot= "primary" color="secondary">
       <h1>Kuhu</h1>
       
       </IonButton>
 
       </div>
+     
 
       <IonCard className="ion-card">
           <IonCardHeader>
@@ -62,7 +63,10 @@ const Tab1: React.FC = () => {
             <IonCardTitle id="asukoht">Pariis</IonCardTitle>
           </IonCardHeader>
 
-          <IonCardContent id="sisu">
+        
+          <IonCardContent id="sisu" >
+
+            
             
           Pariis (prantsuse keeles Paris) on Prantsusmaa pealinn ja Île-de-France'i piirkonna halduskeskus ning Prantsusmaa ainus vald-departemang.
       </IonCardContent>
@@ -71,6 +75,10 @@ const Tab1: React.FC = () => {
       
     </IonPage>
   );
+
+  
 };
+
+
 
 export default Tab1;
